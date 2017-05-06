@@ -1,0 +1,36 @@
+.proimgbox{width: 310px;float: left;border-right: 1px dashed #DCDBDB;}
+.bigimgbox{min-height: 200px;}
+.bigimgbox img{width: 300px;height: 200px;}
+.smallimglist{min-height: 60px;text-align: center;}
+
+.smallimglist img{width: 60px;height: 60px;border: 1px solid #E1E1E1;}
+.smallimglist img:hover{border: 1px solid #FFE970;}
+
+.proinfolist{width: 440px; float: left; padding-left: 10px; position: relative;}
+.proinfolist div{padding-top: 3px;border-bottom: 1px dashed #DCDBDB;}
+.proinfolist div a{color: #666666; text-decoration: underline;}
+.proinfolist div ul{padding: 3px 0; margin: 0; list-style: none;}
+.proinfolist div ul li{line-height: 25px;height: 25px;}
+.proinfolist div ul li img{height: 26px;line-height: 26px;padding: 10px 3px;}
+.proinfolist_title{height: 35px; line-height: 35px;}
+.proinfolist_title span{color: #00267F; font-size: 14px; font-weight: bold;}
+.proinfolist_body span{color: #D03430;}
+.proinfolist_bottom{border: 0;}
+.proinfolist_bottom a{text-decoration: line-through;}
+.proinfolist_bottom b{color: #D6290B; font-weight: bold;}
+.proinfolist_bottom .sl input{text-align: center; width: 60px;}
+ 
+#bigimgboxdiv{display: none; position: absolute; top:5px;height: 200px;width: 200px;overflow: hidden;}
+#bigimgboxdiv img{width: 450px;height: 300px;}
+
+.pro_ad{border-top:1px solid #EEE ;border-bottom:1px solid #EEE ;height: 45px;margin: 5px 0;}
+.pro_ad .pro_adtext{float: left; height: 45px;line-height: 45px;}
+.pro_ad .pro_adtext span{font-size: 14px;font-weight: bold;}
+.pro_ad .pro_adtext a{color: #666;}
+.pro_ad .pro_adimg{text-align: right;padding-top: 8px;}
+.pro_ad .pro_adimg img{border: 0;}
+
+.protabinfo{padding-top:10px ;}
+.protabinfo_title div{float: left;  width: 70px;height: 25px; line-height: 25px;text-align:center;  border: 1px solid #E1E1E1;background-color: #FBF7FF;}
+.protabinfo_title .active{color: #FF0000;font-weight: bold; text-decoration: underline; border-bottom: 0;}
+.protabinfobox{clear: both; width: 750px;min-height: 500px; border: 1px solid #E4E4E4;padding: 10px;}

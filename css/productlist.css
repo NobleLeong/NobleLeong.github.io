@@ -1,0 +1,101 @@
+
+.prolistbody{
+	overflow: hidden;
+	width: 770px;
+	padding: 5px;
+}
+.productlistnav {
+	overflow: hidden;
+	background-image: url(../img/nbg.gif);
+	line-height: 24px;
+}
+
+.productlistnav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 5px;
+}
+.productlistnav ul li{
+	display: block;
+	float: left;
+}
+.productlistnav ul li a{
+	font-size: 14px;
+	color: #000;
+}
+.subnavlist ul{
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 5px;
+}
+.subnavlist ul li span{
+	
+	font-weight: bold;
+}
+.subnavlist ul li{
+	width: 70px;
+	text-align: center;
+	line-height: 25px;
+	display: block;
+	float: left;
+}
+.subnavlist ul li a{
+	color: #666;
+	text-decoration: underline;
+
+}
+.tab{border: 1px solid #E1E1E1;}
+.tab .fy{padding: 20px 0;}
+.tablist{
+	background: url(../img/sortbg.jpg);
+	line-height: 26px;
+	position: relative;
+	
+	
+}
+.listinfo a{padding-left:5px; color: #4A0000;font-size: 14px; line-height: 30px;}
+.listinfo .scj{padding-right: 20px;font-size: 14px;font-weight: 600; text-decoration: line-through;}
+.listinfo .hyj{color: #FD6700; padding-right: 20px;font-weight: bold; font-size: 14px;}
+.listinfo .js{font-size: 14px;font-weight: 600;}
+
+.imgbuttonbox{position: absolute; bottom: 20px; right: 10px;}
+.imgbuttonbox img{border: 0;}
+.tablist span{
+	font-size: 12px;
+	font-weight: bold;
+}
+.tablist a{
+	color: #666;
+	border-left:1px solid #E1E1E1 ;
+	border-right:1px solid #E1E1E1 ;
+	display: inline-block;
+	padding: 0 10px;
+	
+
+}
+.tablist a:hover{
+	background: url(../img/sortbg1.jpg);
+	
+	
+}
+.vm1{background: url(../img/vm1.gif) no-repeat; position: absolute; width: 18px; height: 18px; right: 50px; top: 4px;}
+.vm2{background: url(../img/vm2.gif) no-repeat; position: absolute; width: 18px; height: 18px; right: 10px; top: 4px;}
+
+.vm1:hover{background: url(../img/vm11.gif) no-repeat;}
+.vm2:hover{background: url(../img/vm21.gif) no-repeat;}
+
+.prolistinfo{
+	position: relative;
+	border-bottom: 1px dashed #DCDBDB;
+	padding-bottom: 5px;
+	
+}
+.prolistimg{padding: 20px 0 0 20px;}
+.prolistimg img{border: 1px solid #C0C0C0;width: 100px; height: 100px;}
+
+.listinfo{position: absolute; top: 30px; left: 155px;}
+.listinfo span{padding: ;}
+.prolistinfo a img{padding-right: 5px;}

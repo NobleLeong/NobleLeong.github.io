@@ -1,0 +1,7 @@
+.project_title{background: url(../img/sort1_r2_c2.png);height: 25px;line-height: 25px; position: relative;}
+.project_title span{background:url(../img/lb.gif) no-repeat left;padding-left:15px; position: absolute; left: 150px;font-weight: bold;}
+.xzpbox1{height: 32px;line-height: 32px; background-color: #F5F5F5;margin: 10px 20px 0 20px;padding-left: 10px;}
+.xzpbox1 span{color: #f00;}
+.xzpbox2{height: 25px;line-height: 25px;margin: 0 20px;padding:0 0 10px 10px;}
+.xzpbox2 .span1{color: #00F; padding-right: 20px;}
+.xzpbox2 .span2{font-style: 16px;font-weight: bold;color: #666;}

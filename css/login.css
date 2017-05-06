@@ -1,0 +1,9 @@
+.loginbox{width: 615px;margin: 80px auto;}
+.logintopimg{width: 615px; height: 29px; background: url(../img/logina1.gif);}
+.logincenter{background-color: #F9F9F9;}
+.logincenter_left{width: 143px; height: 80px; background: url(../img/logina3.gif);float: left; margin: 0 30px;}
+.logincenter form{height: 80px;padding-top: 15px;}
+.logincenter table{float: left;}
+.logincenter_right{float: left;width: 106px;height: 63px;}
+.logincenter_right input{background: url(../img/logina4.gif); width: 106px; height: 63px;border: 0;}
+.loginbottomimg{width: 615px; height: 29px; background: url(../img/logina2.gif); clear: both;}

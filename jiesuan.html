@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>麦子商城</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/productlist.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gouwuche.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jiesuan.css"/>
+	</head>
+	<body>
+		<div class="containter">
+			<!--网站头部-->
+			<div class="indextop">
+				
+				<div class="indexlogo">
+					<img src="img/logo.gif"/>
+				</div>
+				
+				<div class="topinfo">
+					<span>你好！欢迎来到麦子商城，想继续购物？<a href="Login.html">[请登陆]</a>，新用户？<a href="register.html">[免费注册]</a></span>
+				</div>
+				
+				<div class="topnav">
+					<ul>
+						<li><a href="">帮助中心</a>|</li>
+						<li><a href="">客户反馈</a>|</li>
+						<li><a href="">网站地图</a>|</li>
+						<li><a href="">加入收藏</a></li>	
+						
+					</ul>
+					<div class="">
+						<span id="Clock"></span>
+					</div>
+				</div>
+				
+				<div>
+					<marquee direction="up">
+						<a href="#">最新公告：明天有秒杀活动！感谢用户的支持与信任！</a>
+					</marquee>
+				</div>
+				
+				<div class="nav">
+					<div class="nav1">
+						
+						<div >
+							<ul>
+								<li><a href="index.html">网站首页</a></li>
+								<li>|<a href="#">分类导航</a></li>
+								<li>|<a href="productlist.html">产品列表</a></li>
+								<li>|<a href="#">品牌导航</a></li>
+								<li>|<a href="#">购物帮助</a></li>
+								<li>|<a href="prolistproice.html">报价单</a></li>
+								<li>|<a href="jiesuan.html">发货单</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="nav2">
+						
+						<div class="nav2_left">
+							<span>商品搜索</span>
+							<span>
+								<select>
+									<option>所有分类</option><option>最新商品</option><option>热卖商品</option>
+								</select>
+							</span>
+						</div>
+						
+						<div class="search">
+							<form action="#" method="post">
+								<input type="text" name="search" id="search" value="" />
+								<button type="submit"">搜索</button>
+							</form>
+							
+						</div>
+						
+						<span style="float: left;">高级/组合搜索</span>
+						
+						<div style="background: url(img/d3.jpg) no-repeat; width: 305px; height: 24px;float: right;margin: 5px 12px 0 0;">
+							<a href="#" style="margin-left: 10px; color: #666;line-height: 24px;"><a class="count">0</a>件商品&nbsp;合计：<a class="total">0.00</a>元</a>
+							<a href="jiesuan.html" style="margin-left: 25px; color: #666;line-height: 24px;">去结算</a>
+							<a href="#" style="margin-left: 25px; color: #666;line-height: 24px;">用户中心</a>
+						</div>
+						
+					</div>	
+					
+				</div>
+				
+			</div>
+			<!--网站中间主体部分-->
+			<div class="indexbody">
+				<!--左边部分-->
+				<div class="indexbody_left">
+					
+					<div id="suerbox" class="box">
+						<h3>用户信息</h3>
+						<ul>
+							<li style="background: url(img/1.gif) no-repeat center left;"><a href="#">欢迎noble</a><a href="#">【退出】</a></li>
+							<li style="background: url(img/2.gif) no-repeat center left;"><a href="#">用户资料修改</a></li>
+							<li style="background: url(img/3.gif) no-repeat center left;"><a href="#">用户密码修改</a></li>
+							<li style="background: url(img/4.gif) no-repeat center left;"><a href="#">订单管理</a></li>
+							<li style="background: url(img/5.gif) no-repeat center left;"><a href="#">管理优惠劵</a></li>
+							<li style="background: url(img/6.gif) no-repeat center left;"><a href="#">兑换优惠卷</a></li>
+							<li style="background: url(img/7.gif) no-repeat center left;"><a href="#">缺货登记</a></li>
+							<li style="background: url(img/8.gif) no-repeat center left;"><a href="gouwuche.html">购物车（2）</a></li>
+							<li style="background: url(img/9.gif) no-repeat center left;"><a href="#">我的收藏（0）</a></li>
+							<li style="background: url(img/10.gif) no-repeat center left;"><a href="#">对比框（0）</a></li>
+						</ul>
+					</div>
+					
+				</div>
+				<!--中部-->
+				<div class="prolistbody">
+					
+					<div class="productlistnav">
+						<ul>
+							<li><img src="img/home.gif"/></li>
+							<li><a href="">当前位置：</a></li>
+							<li><a href="index.html">首页</a>&nbsp;》</li>
+							<li><a href="jiesuan.html">购物结算</a></li>
+						</ul>
+					</div>
+					
+					<div class="gouwuchelist">
+						<table id="gouwuchelist">
+							<tr>
+								<th style="text-align: left;">商品名称</th> 
+								<th>单价（元）</th> 
+								<th>数量</th> 
+								<th>合计（元）</th> 
+								<th>类型</th> 
+								
+							</tr>
+							<tr> 
+								<td  style="text-align: left;">美的(midea)电脑版电压力锅PCS597</td> 
+								<td>￥<span class="price">589</span></td> 
+								<td><input class="sl" type="text" name="num" id="sl1" value="1" /></td> 
+								<td>￥<span class="smalltotal">00.00</span></td> 
+								<td>-</td> 
+								
+							</tr>
+							<tr> 
+								<td  style="text-align: left;">霍尼韦尔(Honeywell)</td> 
+								<td>￥<span class="price">1589</span></td> 
+								<td><input class="sl" type="text" name="num" id="sl2" value="1" /></td> 
+								<td>￥<span class="smalltotal">00.00</span></td> 
+								<td>-</td> 
+								
+							</tr>
+							<tr> 
+								<td  style="text-align: left;">爱普生（Epson）EPL-N2500A3黑白</td> 
+								<td>￥<span class="price">7599</span></td> 
+								<td><input class="sl" type="text" name="num" id="sl3" value="1" /></td> 
+								<td>￥<span class="smalltotal">00.00</span></td> 
+								<td>-</td> 
+								 
+							</tr>
+							
+						</table>
+						
+						<div class="gwclistdiv"><span>共&nbsp;</span><span class="red" id="count">0</span><span>&nbsp;件商品&nbsp;</span><span>价格总计：</span><span class="red" id="total">￥0.00元</span><span>&nbsp;&nbsp;你是：</span><span style="color: #00f;">一般会员</span><span>（不享受折扣价）</span></div>
+						<div class="gwclistdiv"><span>折后价格：</span><span class="red" id="disprice">￥0.00元</span><span>&nbsp;&nbsp;获得积分：</span><span>917</span></div>
+						<div class="gwclistdiv"><span>满500元免运费，你的订单可以免费送货！</span></div>
+						
+						<div class="project_title">
+							<span >选择赠品</span>
+						</div>
+						
+						<div class="xzpbox1">
+							<input type="checkbox"/>
+							<span>请选择赠品：每个订单只可以选择一个赠品，赠品有限请抓紧机会，赠品不负责退换！</span>
+						</div>
+						
+						<div class="xzpbox2">
+							<input type="radio"/>
+							<span class="span1" >只差2083就可获得此赠品！</span><span class="span2" >网软商城</span>&nbsp;<span style="padding-right: 20px;">(剩余1000件)</span><span style="padding: 0 20px;">价值￥3500元</span><span style="padding: 0 20px;">满￥3000元送</span>
+						</div>
+						
+						<div class="project_title">
+							<span>使用优惠劵</span>
+						</div>
+						
+						<div style="padding-left: 110px;">
+							<form action="#" method="post" >
+								<span>卡号：</span><input type="text" name="cardnum" id="cardnum"/>
+								<span>密码：</span><input type="text" name="cardpassword" id="cardpassword"/>
+								
+								<input type="submit" value="验证" onclick="return checkyouhuika()"/>
+							</form>
+							
+						</div>
+						
+						<div class="project_title">
+							<span>填写定货人详细信息</span>
+						</div>
+						
+						<div style="padding-left: 90px;">
+							<form action="#" method="post">
+								<table>
+									<tr><th>姓名：</th><td><input type="text" name="name" id="name"/></td></tr>
+									<tr><th>电话：</th><td><input type="tel" name="tel" id="tel" /></td></tr>
+									<tr><th>E-mail：</th><td><input type="email" name="mail" id="mail" value="" /></td></tr>
+									<tr><th>地址：</th><td><input type="text" name="addr" id="addr" value="" /></td></tr>
+									<tr><th>邮编：</th><td><input type="text" name="zipcord" id="zipcord" value="" /></td></tr>
+								</table>
+								
+							</form>
+						</div>
+						
+						<div class="project_title">
+							<span>填写收货人详细信息&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio"/><a style="color: #00f;">复制定货人信息</a></span>
+							
+						</div>
+						
+						<div style="padding-left: 90px;">
+							<form action="#" method="post">
+								<table>
+									<tr><th><span>*</span>客户姓名：</th><td><input type="text" name="ClientName" id="ClientName" value="" /></td></tr>
+									<tr><th><span>*</span>联系电话：</th><td><input type="tel" name="phonenumber" id="phonenumber" value="" /></td></tr>
+									<tr><th><span>*</span>电子邮箱：</th><td><input type="email" name="E_mail" id="E_mail" value="" /></td></tr>
+									<tr><th><span>*</span>联系地址：</th><td><input type="text" name="contactaddr" id="contactaddr" value="" /></td></tr>
+									<tr><th><span>*</span>邮政邮编：</th><td><input type="text" name="postcord" id="postcord" value="" /></td></tr>
+									<tr><th><span>*</span>到货时间：</th><td><input type="radio"/><span>工作时间  8：00-23:00</span></td></tr>
+									<tr><th><span>*</span>付款方式：</th><td><input type="radio"/><span>银行转账 <a href="#" style="text-decoration:underline; color: #000;">[中国工商银行：户名：XXX&nbsp;卡号：xxxx xxxx xxxx xxxx xxx]</a></span></td></tr>
+									<tr><td></td><td><a href="#" style="color: red;"> &nbsp;&nbsp;&nbsp;关于付款方式的详细说明》</a></td></tr>
+									<tr><th><span>*</span>送货方式：</th><td><input type="radio" name="fahuo"/><span>快递送货<a href="#" style="text-decoration:underline; color: #000;">[实惠快速，一般3天到货，收费12元</a></span></td></tr>
+									<tr><th></th><td><input type="radio" name="fahuo"/><span>EMS邮寄<a href="#" style="text-decoration:underline; color: #000;">[农村邮寄，一般5天到货，收费23元</a></span></td></tr>
+									<tr><td></td><td><a href="#" style="color: red;"> &nbsp;&nbsp;&nbsp;关于付款方式的详细说明》</a></td></tr>
+									<tr><th>需要发票：</th><td><input type="radio"  name="fapiao"/><span>需要</span><input type="radio" name="fapiao"/><span>不需要 <a href="#">(开发票需要加收税点5%)</a></span></td></tr>
+									<tr><th>缺货处理：</th><td><input type="radio" name="qiehuo"/><span>等待</span><input type="radio" name="qiehuo"/><span>从订单取消</span></td></tr>
+									<tr><th>备注：<br/>(50汉字内)</th><td><textarea name="beizhu" rows="3" cols="35"></textarea></td></tr>
+									<tr><th></th><td><input type="button" name="tijiao" id="tijiao" value="提交订单" onclick="return checksuerinfo()"/></td></tr>
+									
+									
+								</table>
+								
+							</form>
+						</div>
+						
+					</div>
+							
+				</div>
+			</div>	
+			<!--网站底部-->
+			<div class="indexfooter">
+				<div class="indexfooter_nav">
+					<ul>
+						<li class="listnav">
+							<h4>关于我们</h4>
+							<ul>
+								<li><a href="#">发展历程</a></li>
+								<li><a href="#">联系方式</a></li>
+								<li><a href="#">公司介绍</a></li>
+								<li><a href="#">企业文化</a></li>
+							</ul>
+						</li>
+						<li class="listnav">
+							<h4>付款方式</h4>
+							<ul>
+								<li><a href="#">发展历程</a></li>
+								<li><a href="#">联系方式</a></li>
+								<li><a href="#">公司介绍</a></li>
+								<li><a href="#">企业文化</a></li>
+							</ul>
+						</li>
+						<li class="listnav">
+							<h4>送货方式</h4>
+							<ul>
+								<li><a href="#">发展历程</a></li>
+								<li><a href="#">联系方式</a></li>
+								<li><a href="#">公司介绍</a></li>
+								<li><a href="#">企业文化</a></li>
+							</ul>
+						</li>
+						<li class="listnav">
+							<h4>售后服务</h4>
+							<ul>
+								<li><a href="#">发展历程</a></li>
+								<li><a href="#">联系方式</a></li>
+								<li><a href="#">公司介绍</a></li>
+								<li><a href="#">企业文化</a></li>
+							</ul>
+						</li>
+						<li class="listnav">
+							<h4>购物帮助</h4>
+							<ul>
+								<li><a href="#">发展历程</a></li>
+								<li><a href="#">联系方式</a></li>
+								<li><a href="#">公司介绍</a></li>
+								<li><a href="#">企业文化</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="indexfooter_info">
+					
+					<div>
+						<a href="#">淘宝店</a>
+						<a href="#">易趣店</a>
+						<a href="#">拍拍店</a>
+						<a href="#">有啊店</a>
+					</div>
+					
+					<div>
+						Copyright 2015 127.0.0.1 All Rights Reserved.版权所有：广州网软志成信息科技有限公司
+					</div>
+					
+					<div>客户服务热线：<span>020-34506590 </span>传真：<span>020-34506590</span></div>
+					
+					<div>
+						客户服务邮箱:<span>ygbafsioa@dfss.net 粤ICP备06122404号</span>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		<script src="js/gettime.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/gouwuche.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jiesuan.js" type="text/javascript" charset="utf-8"></script>
+		
+	</body>
+</html>
